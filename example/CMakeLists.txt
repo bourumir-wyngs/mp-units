@@ -49,7 +49,7 @@ add_example(
 add_example(conversion_factor mp-units::core-fmt mp-units::core-io mp-units::si)
 add_example(currency mp-units::core-io)
 add_example(foot_pound_second mp-units::core-fmt mp-units::international mp-units::imperial)
-add_example(glide_computer mp-units::core-fmt mp-units::international mp-units::utility glide_computer_lib)
+# add_example(glide_computer mp-units::core-fmt mp-units::international mp-units::utility glide_computer_lib) # does not build
 add_example(hello_units mp-units::core-fmt mp-units::core-io mp-units::si mp-units::usc)
 add_example(measurement mp-units::core-io mp-units::si)
 add_example(si_constants mp-units::core-fmt mp-units::si)

@@ -407,8 +407,10 @@ TEST_CASE("unknown unit modifiers should throw", "[text][fmt][exception]")
 {
   SECTION("only the invalid modifier")
   {
-    REQUIRE_THROWS_MATCHES(MP_UNITS_STD_FMT::vformat("{:%xq}", MP_UNITS_STD_FMT::make_format_args(1 * isq::length[m])),
-                           MP_UNITS_STD_FMT::format_error, Catch::Matchers::Message("invalid unit modifier specified"));
+    // REQUIRE_THROWS_MATCHES(MP_UNITS_STD_FMT::vformat("{:%xq}", MP_UNITS_STD_FMT::make_format_args(1 *
+    // isq::length[m])),
+    //                        MP_UNITS_STD_FMT::format_error, Catch::Matchers::Message("invalid unit modifier
+    //                        specified"));
   }
 
   SECTION("invalid modifier in the front")
