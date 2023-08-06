@@ -36,6 +36,7 @@ add_subdirectory(imperial)
 add_subdirectory(international)
 add_subdirectory(typographic)
 add_subdirectory(usc)
+add_subdirectory(enzimology)
 
 # wrapper for all the systems
 add_library(mp-units-systems INTERFACE)
@@ -55,6 +56,7 @@ target_link_libraries(
         mp-units::international
         mp-units::typographic
         mp-units::usc
+        mp-units::enzimology
 )
 add_library(mp-units::systems ALIAS mp-units-systems)
 set_target_properties(mp-units-systems PROPERTIES EXPORT_NAME systems)
