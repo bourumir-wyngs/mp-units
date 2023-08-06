@@ -55,7 +55,7 @@ physical properties.
 !!! info
 
     More than one quantity may be defined for the same dimension:
-    
+
     - quantities of _different kinds_ (i.e. frequency, modulation rate, activity, ...)
     - quantities of _the same kind_ (i.e. length, width, altitude, distance, radius, wavelength, position vector, ...)
 

@@ -10,7 +10,7 @@ any quantity in the most user-friendly way.
     For example, the text output of `42 m` may mean many things and can also be confused with
     an output of a regular quantity. On the other hand, printing `42 m AMSL` for altitudes above
     mean sea level is a much better solution, but the library does not have enough information
-    to print it that way.  
+    to print it that way.
 
 
 ## Output Streams
@@ -147,7 +147,7 @@ std::println("|{:*^10}|", 123 * m);  // |**123 m***|
 
     [`std::println` is a C++23 facility](https://en.cppreference.com/w/cpp/io/print). In case you
     do not have access to C++23, you can obtain the same output with:
-    
+
     ```cpp
     std::cout << std::format("<format-string>\n", <format-args>);
     ```
